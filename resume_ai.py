@@ -251,3 +251,7 @@ def get_resume_json(resume_text: str) -> dict:
         raise ValueError(f"Gemini did not return valid JSON: {e}\nRaw response:\n{raw}")
 
     return _clean_resume_data(data)
+
+
+
+
